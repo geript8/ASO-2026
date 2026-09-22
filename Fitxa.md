@@ -302,33 +302,17 @@ Si no, com podríem donar-los accés als recursos del projecte?
 Crear un conjunt nou només per al projecte, per exemple `Campanya_Estiu`, i afegir-hi les persones que hi participen, sense treure-les del seu departament d'origen. Així cada persona pertanyeria a dos conjunts alhora: el seu departament i el projecte.
 # 10. Conclusions
 
-Completa les frases amb les teves paraules.
-
 ### Usuari
-
-Un usuari representa:
-
----
+Un usuari representa: una persona que treballa a l'empresa i necessita accedir a recursos.
 
 ### Recurs
-
-Un recurs és:
-
----
+Un recurs és: una carpeta a on hi ha informació que es pot consultar o modificar.
 
 ### Permís
-
-Un permís determina:
-
----
+Un permís determina: què pot fer un usuari amb un recurs (llegir-lo, modificar-lo o no accedir-hi).
 
 ### Grup
-
-Un grup serveix per:
-
----
-
----
+Un grup serveix per: reunir persones amb les mateixes necessitats d'accés i gestionar-les totes juntes.
 
 # 11. Regla de mínim privilegi
 

@@ -26,7 +26,8 @@ MusicCloud necessita reorganitzar la seva infraestructura informàtica. Abans d'
 Consulta la informació disponible sobre els departaments, treballadors i perfils d'usuari de MusicCloud.
 
 Completa la taula següent.
-|   | Persona | Departament | Funció / responsabilitat | Perfil | Necessita privilegis especials? Per què? |
+
+| Persona | Departament | Funció / responsabilitat | Perfil | Necessita privilegis especials? Per què? |
 |---|---|---|---|---|
 | Aina Ciurans | Direcció | Usuari estàndard de Direcció | Direcció (cas especial) | Sí. Direcció té accés L/E gairebé a tots els recursos de l'empresa (comuns, propis i interdepartamentals), ja que supervisa el conjunt de l'organització. |
 | Rut Tornil | Direcció | Usuari estàndard de Direcció | Direcció (cas especial) | Sí, pel mateix motiu que Aina Ciurans: Direcció necessita visió i control globals sobre la resta de departaments. |
@@ -74,14 +75,12 @@ Classifica alguns dels recursos següents segons la seva finalitat.
 
 |Recurs|Qui creus que l'hauria d'utilitzar?|Per a què?|
 |---|---|---|
-|`/empresa/comu/intercanvi`|||
-|`/empresa/comu/comunicats`|||
-|`/empresa/departaments/administracio/compartida`|||
-|`/empresa/departaments/administracio/gestio_departament`|||
-|`/empresa/projectes/campanya_estiu`|||
-|`/empresa/administracio_sistema/backups`|||
-
----
+|`/empresa/comu/intercanvi`|Tots els departaments i externs|Enviar i rebre documents amb gent de fora l'empresa|
+|`/empresa/comu/comunicats`|Direcció (escriu) i la resta (llegeix)|Publicar avisos o comunicats per a tota l'empresa|
+|`/empresa/departaments/administracio/compartida`|Treballadors d'Administració|Guardar documents habituals del departament|
+|`/empresa/departaments/administracio/gestio_departament`|Només la cap d'Administració (Laia Macias)|Gestionar informació restringida del departament|
+|`/empresa/projectes/campanya_estiu`|Només les persones del projecte|Treballar junts en la campanya d'estiu|
+|`/empresa/administracio_sistema/backups`|Departament d'Informàtica|Guardar còpies de seguretat del sistema|
 
 # 3. Qui ha de poder fer què?
 

@@ -123,6 +123,8 @@ David → lectura/escriptura
 
 Què passaria si l'empresa tingués **100 treballadors** amb el mateix tipus d'accés?
 
+**Seria una feina molt pesada. Hauríem de configurar el permís un per un, 100 vegades, i és fàcil equivocar-se:**
+
 ---
 
 ---
@@ -131,6 +133,8 @@ Què passaria si l'empresa tingués **100 treballadors** amb el mateix tipus d'a
 
 Què passaria cada vegada que s'incorporés una persona nova?
 
+**Cada cop que entri algú nou, tocaria tornar a repetir tot el procés manualment per aquella persona.**
+
 ---
 
 ---
@@ -138,6 +142,8 @@ Què passaria cada vegada que s'incorporés una persona nova?
 ### 4.3.
 
 Què passaria quan una persona canviés de departament?
+
+**Caldria anar a buscar-la entre tots els permisos i canviar-los un per un, amb risc d'oblidar-ne algun.**
 
 ---
 
@@ -149,6 +155,7 @@ Proposa una manera de gestionar aquestes persones conjuntament.
 
 No cal que coneguis encara el nom tècnic de la solució.
 
+**Es podria crear un grup amb totes les persones que necessiten el mateix accés, i donar el permís al grup sencer en lloc de a cada persona per separat. Així, quan algú entra o marxa, només s'afegeix o es treu del grup.**
 ---
 
 ---

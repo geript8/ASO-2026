@@ -265,19 +265,13 @@ Com anomenaries aquests conjunts de persones?
 
 # 7. Primera proposta per a MusicCloud
 
-A partir de l'organització de l'empresa, proposa els primers conjunts de persones que crearies.
-
-**No cal trobar encara la solució definitiva.**
-
 |Nom proposat|Qui hi pertanyeria?|Per què existeix aquest conjunt?|
 |---|---|---|
-||||
-||||
-||||
-||||
-||||
-
----
+|Direcció|Aina Ciurans, Rut Tornil|Necessiten accés global a gairebé tota l'empresa|
+|Administració|Dídac Gassó, Laia Macias|Comparteixen els recursos del seu departament|
+|Suport tècnic|Estel Birosta, Aina Zuriguel, Lluïsa Richart|Comparteixen els recursos del seu departament|
+|Producció musical|Roser Alberch, Guillem Adella, Meritxell Reglat, Alícia Monclús, Carles Molins, Eulàlia Galcera|Comparteixen els recursos del seu departament|
+|Informàtica|Talia Costas, Alex Soriano|Necessiten permisos ADM per gestionar el sistema|
 
 # 8. Cas que complica el model
 

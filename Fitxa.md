@@ -239,6 +239,8 @@ Quin avantatge té aquesta solució respecte a donar permisos persona per person
 
 ---
 
+**Estalvia feina: en lloc de configurar el permís persona per persona, es configura una vegada per a tot el conjunt. Si algú entra o marxa, només cal afegir-lo o treure'l del conjunt.**
+
 ---
 
 ### 6.2.
@@ -247,6 +249,8 @@ Si Dídac passa d'Administració a Producció musical, què caldria modificar?
 
 ---
 
+**Només caldria treure'l del conjunt Administració i afegir-lo al conjunt Producció musical. No cal tocar els permisos de les carpetes.**
+
 ---
 
 ### 6.3.
@@ -254,6 +258,8 @@ Si Dídac passa d'Administració a Producció musical, què caldria modificar?
 Com anomenaries aquests conjunts de persones?
 
 ---
+
+**Grups (o grups d'usuaris).**
 
 ---
 

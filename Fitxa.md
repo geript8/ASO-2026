@@ -50,22 +50,20 @@ Completa la taula següent.
 
 Quines diferències observes entre un **treballador**, un **departament** i una **funció o responsabilitat**?
 
----
-
----
+Un **treballador** és una persona concreta de l'empresa (per exemple, Laia Macias). Un **departament** és el grup o àrea organitzativa a la qual pertany aquest treballador (per exemple, Administració). I la **funció o responsabilitat** és el rol concret que exerceix dins d'aquest departament (per exemple, ser cap de departament o usuari estàndard). Un mateix departament pot tenir diversos treballadors, però no tots exerceixen la mateixa funció: mentre la majoria són usuaris estàndard, n'hi ha un que assumeix la responsabilitat de cap. És precisament aquesta funció, i no el departament en si, la que determina quins privilegis d'accés necessita cada persona.
 
 ---
 
 Hi ha persones que, pel seu càrrec o funció, necessiten accessos diferents dels altres membres del seu departament?
 
-☐ Sí  
+☑ Sí  
 ☐ No
 
 Posa'n algun exemple:
 
----
-
----
+- **Laia Macias** (Administració): a diferència de Dídac Gassó, com a cap de departament té accés exclusiu de lectura/escriptura a `gestio_departament`, una carpeta a la qual la resta del departament no pot accedir.
+- **Talia Costas** i **Alex Soriano** (Informàtica): per la seva funció d'administradors del sistema, tenen permisos ADM sobre `administracio_sistema` (backups, logs, configuracions) i accés tècnic a les carpetes personals dels usuaris, uns privilegis que cap altre departament té.
+- **Estel Birosta** i **Aina Zuriguel** (Suport tècnic): poden rebre accés temporal (ATP) a recursos com `logs` o `inventari` quan resolen una incidència concreta, un accés que no tenen de manera permanent ni la resta d'usuaris estàndard.
 
 ---
 

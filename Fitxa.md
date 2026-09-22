@@ -279,44 +279,27 @@ Laia treballa al departament d'Administració, però també és la responsable d
 
 És suficient que pertanyi només al conjunt `Administració`?
 
-☐ Sí  
+☑ Sí  
 ☐ No
 
 Per què?
 
----
-
----
+Perquè amb aquest conjunt ja té accés a `compartida` i `documentacio_interna`, però li falta l'accés especial a `gestio_departament`, que només és seu.
 
 Quina possible solució proposes?
 
----
-
----
-
----
-
+Crear un segon conjunt, per exemple `Administració_cap`, només amb en Laia, i donar-li a aquest conjunt l'accés a `gestio_departament`. Així en Laia pertanyeria als dos conjunts alhora: `Administració` i `Administració_cap`.
 # 9. Un altre cas
 
-Diverses persones de departaments diferents participen temporalment en el projecte:
-
-```text
-Campanya Estiu
-```
+Diverses persones de departaments diferents participen temporalment en el projecte `Campanya Estiu`.
 
 Creus que hauríem de canviar-les de departament?
 
 ☐ Sí  
-☐ No
+☑ No
 
 Si no, com podríem donar-los accés als recursos del projecte?
-
----
-
----
-
----
-
+Crear un conjunt nou només per al projecte, per exemple `Campanya_Estiu`, i afegir-hi les persones que hi participen, sense treure-les del seu departament d'origen. Així cada persona pertanyeria a dos conjunts alhora: el seu departament i el projecte.
 # 10. Conclusions
 
 Completa les frases amb les teves paraules.

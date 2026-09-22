@@ -332,11 +332,14 @@ Quina de les dues estratègies consideres més adequada?
 
 ☐ Assignar permisos individualment a cada usuari.
 
-☐ Organitzar els usuaris segons les seves necessitats i assignar permisos a aquests conjunts.
+☑ Organitzar els usuaris segons les seves necessitats i assignar permisos a aquests conjunts.
+
 
 Justifica la resposta.
 
 ---
+
+**Amb 500 treballadors seria impossible gestionar els permisos un per un, es perdria molt de temps i seria fàcil equivocar-se. Organitzant-los en grups, només cal configurar el permís una vegada per grup, i quan algú entra, marxa o canvia de departament, només s'afegeix o es treu del grup corresponent.**
 
 ---
 

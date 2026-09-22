@@ -1,8 +1,2 @@
 # ASO-2026
-# ASO-2026
-# ASO-2026
-# ASO-2026
-# ASO-2026
-# ASO-2026
-# ASO-2026
-# ASO-2026
+Gerard Planas Tort

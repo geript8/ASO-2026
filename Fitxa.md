@@ -176,10 +176,14 @@ Quins accessos hauria de perdre?
 
 ---
 
+**Hauria de perdre: accés a `compartida` i `documentacio_interna` d'Administració.**
 Quins accessos hauria d'obtenir?
+
+
 
 ---
 
+**Hauria d'obtenir: accés a `compartida`, `artistes` i `cataleg` de Producció musical.**
 ---
 
 ### Cas B
@@ -189,6 +193,8 @@ S'incorpora una nova treballadora al departament d'Administració.
 Quins accessos caldria configurar?
 
 ---
+
+**Hauria de obtenir accés a `compartida` i `documentacio_interna` i als recursos comuns de l'empresa.**
 
 ---
 
@@ -201,6 +207,8 @@ Pere Espinalt deixa de col·laborar amb MusicCloud.
 Què hauríem de fer amb els seus accessos?
 
 ---
+
+**Treure-li tots els accessos, sobretot a `comu/intercanvi`, que era l'únic recurs que tenia.**
 
 ---
 

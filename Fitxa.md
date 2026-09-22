@@ -1,7 +1,7 @@
 # Fitxa 1 — Anàlisi inicial de MusicCloud
 
-**Nom i cognoms:** __________________________________________  
-**Data:** __________________  
+**Nom i cognoms:** Gerard Planas Tort________________________________________  
+**Data:** _22/09/26_________________  
 **Equip / parella:** _________________________________________
 
 ## Objectiu
@@ -27,16 +27,32 @@ Consulta la informació disponible sobre els departaments, treballadors i perfil
 
 Completa la taula següent.
 
-|Persona|Departament|Funció / responsabilitat|Necessita privilegis especials? Per què?|
-|---|---|---|---|
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
+|| Aina Ciurans | Direcció | Usuari estàndard de Direcció | Sí. Direcció té accés L/E gairebé a tots els recursos de l'empresa (comuns, propis i interdepartamentals), ja que supervisa el conjunt de l'organització. |
+| Rut Tornil | Direcció | Usuari estàndard de Direcció | Sí, pel mateix motiu que Aina Ciurans: Direcció necessita visió i control globals sobre la resta de departaments. |
+| Dídac Gassó | Administració | Usuari estàndard | No. Accedeix als recursos propis del departament (`compartida`, `documentacio_interna`) i als comuns de l'empresa, sense permisos addicionals. |
+| Laia Macias | Administració | Cap de departament | Sí. Com a responsable, és l'única persona amb accés de lectura/escriptura a `gestio_departament` (carpeta restringida al cap). |
+| Estel Birosta | Suport tècnic | Usuari estàndard | Possiblement sí, de forma puntual. Suport tècnic pot rebre accés temporal (ATP) a `usuaris`, `logs`, `configuracions` i `inventari` per resoldre incidències concretes, sempre justificat i registrat. |
+| Aina Zuriguel | Suport tècnic | Usuari estàndard | Igual que Estel Birosta: accés ATP puntual per gestionar incidències, a més dels recursos habituals del departament. |
+| Lluïsa Richart | Suport tècnic | Cap de departament | Sí. Com a responsable, té accés exclusiu de lectura/escriptura a `gestio_departament` i `scripts` del seu departament. |
+| Roser Alberch | Producció musical | Usuari estàndard | No. Treballa amb els recursos propis del departament (`compartida`, `artistes`, `cataleg`) i els comuns, sense privilegis especials. |
+| Guillem Adella | Producció musical | Usuari estàndard | No. Mateixes necessitats que la resta d'usuaris estàndard del departament. |
+| Meritxell Reglat | Producció musical | Cap de departament | Sí. Accés restringit de lectura/escriptura a `gestio_departament`, a més de coordinar el contingut amb Suport tècnic (accés ATP d'aquest a `cataleg`). |
+| Alícia Monclús | Producció musical | Usuari estàndard | No. Necessitats bàsiques d'usuari del departament. |
+| Carles Molins | Producció musical | Usuari estàndard | No. Necessitats bàsiques d'usuari del departament. |
+| Eulàlia Galcera | Producció musical | Usuari estàndard | No. Necessitats bàsiques d'usuari del departament. |
+| Talia Costas | Informàtica | Cap de departament / Administrador del sistema | Sí, i de nivell alt. A més de l'accés `R: L/E` a `gestio_departament`, el departament d'Informàtica té permisos ADM sobre `administracio_sistema` (backups, logs, configuracions) i accés ADM tècnica a les carpetes personals dels usuaris. |
+| Alex Soriano | Informàtica | Administrador del sistema | Sí. Com a membre d'Informàtica, necessita permisos ADM per crear/modificar usuaris, gestionar grups, configurar serveis i revisar logs i backups. |
+| Pere Espinalt | Externs | Usuari extern | Sí, però limitats. Només ha d'accedir a `comu/intercanvi` per a l'intercanvi temporal de documents, sense accés a informació interna ni d'administració. |
+| Neus Bages | Externs | Usuari extern | Igual que Pere Espinalt: accés únicament a `comu/intercanvi`, de manera temporal i controlada. |
+
+## 2. Resum de perfils d'usuari identificats
+
+| Perfil | Persones assignades |
+|---|---|
+| **Usuari estàndard** | Aina Ciurans, Rut Tornil, Dídac Gassó, Estel Birosta, Aina Zuriguel, Roser Alberch, Guillem Adella, Alícia Monclús, Carles Molins, Eulàlia Galcera |
+| **Responsable de departament** | Laia Macias (Administració), Lluïsa Richart (Suport tècnic), Meritxell Reglat (Producció musical) |
+| **Administrador del sistema** | Talia Costas, Alex Soriano (Informàtica) |
+| **Usuari extern** | Pere Espinalt, Neus Bages |
 
 ### 1.1. Reflexió
 

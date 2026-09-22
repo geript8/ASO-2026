@@ -316,23 +316,13 @@ Un grup serveix per: reunir persones amb les mateixes necessitats d'accés i ges
 
 # 11. Regla de mínim privilegi
 
-Analitza aquesta afirmació:
-
-> Un usuari només hauria de tenir els permisos estrictament necessaris per realitzar la seva feina.
-
 Explica amb les teves paraules què significa.
 
----
-
----
+**Significa que a cada persona només se li han de donar els permisos que realment necessita per fer la seva feina, ni un de més. Si no li cal per treballar, no hi ha d'accedir.**
 
 Posa un exemple relacionat amb MusicCloud.
 
----
-
----
-
----
+**Un membre de Producció musical no necessita accedir a la carpeta d'Administració, així que no se li dona aquest permís, encara que treballi a la mateixa empresa.**
 
 # 12. Pregunta final
 

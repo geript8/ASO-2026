@@ -61,64 +61,39 @@ MusicCloud
 
 # 3. OU o grup?
 
-Indica quina opció utilitzaries principalment en cada cas.
-
 |Necessitat|OU|Grup|
 |---|:-:|:-:|
-|Organitzar els treballadors d'Administració|☐|☐|
-|Donar accés a la carpeta d'Administració|☐|☐|
-|Organitzar els ordinadors clients|☐|☐|
-|Identificar les persones que participen en Campanya Estiu|☐|☐|
-|Organitzar els servidors|☐|☐|
-|Donar privilegis als administradors del sistema|☐|☐|
-|Organitzar els comptes utilitzats per aplicacions|☐|☐|
+|Organitzar els treballadors d'Administració|☑|☐|
+|Donar accés a la carpeta d'Administració|☐|☑|
+|Organitzar els ordinadors clients|☑|☐|
+|Identificar les persones que participen en Campanya Estiu|☐|☑|
+|Organitzar els servidors|☑|☐|
+|Donar privilegis als administradors del sistema|☐|☑|
+|Organitzar els comptes utilitzats per aplicacions|☑|☐|
 
 ### Explica amb les teves paraules la diferència principal entre una OU i un grup.
 
 **OU:**
 
----
-
----
+Serveix per organitzar i estructurar els objectes (per exemple, per departament), i per aplicar-hi polítiques de manera automàtica.
 
 **Grup:**
 
----
-
----
-
----
+Serveix per donar permisos o accessos concrets a un conjunt de persones, encara que siguin de departaments diferents.
 
 # 4. Un mateix usuari: ubicació i pertinença
 
-Considera aquest cas:
-
-**Dídac Gassó**
-
-- treballa a Administració;
-    
-- participa en el projecte Campanya Estiu.
-    
-
-Indica:
-
 **En quina OU ubicaries el seu compte?**
 
----
+A l'OU `Administracio`, perquè és el seu departament de treball habitual.
 
 **A quins grups podria pertànyer?**
 
----
-
----
+Al grup `Administracio` i al grup `Campanya_Estiu`.
 
 ### Per què no és contradictori que estigui en una OU però pertanyi a diversos grups?
 
----
-
----
-
----
+Perquè cada usuari només pot estar en **una** OU (indica on està ubicat dins l'estructura), però pot pertànyer a **diversos** grups alhora (indiquen a quins recursos té accés).
 
 # 5. Servei de directori
 

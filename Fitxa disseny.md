@@ -26,15 +26,38 @@ Sí, també hi afegiria les carpetes o recursos compartits (com `comu`, `departa
 
 ## 2.1. Organització dels usuaris
 
-Dibuixa l'estructura que utilitzaries per organitzar els usuaris de MusicCloud.
-
 ```text
 MusicCloud
 │
-└──
+├── Direccio
+│   ├── Aina Ciurans
+│   └── Rut Tornil
+│
+├── Administracio
+│   ├── Laia Macias
+│   └── Dídac Gassó
+│
+├── SuportTecnic
+│   ├── Lluïsa Richart
+│   ├── Estel Birosta
+│   └── Aina Zuriguel
+│
+├── ProduccioMusical
+│   ├── Meritxell Reglat
+│   ├── Roser Alberch
+│   ├── Guillem Adella
+│   ├── Alícia Monclús
+│   ├── Carles Molins
+│   └── Eulàlia Galcera
+│
+├── Informatica
+│   ├── Talia Costas
+│   └── Alex Soriano
+│
+└── Externs
+    ├── Pere Espinalt
+    └── Neus Bages
 ```
-
----
 
 # 3. OU o grup?
 

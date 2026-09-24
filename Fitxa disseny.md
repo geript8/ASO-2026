@@ -16,15 +16,13 @@ Sí, també hi afegiria les carpetes o recursos compartits (com `comu`, `departa
 
 # 2. Organització mitjançant unitats organitzatives
 
-Proposa les **unitats organitzatives (OU)** principals que utilitzaries a MusicCloud.
-
 |OU|Què contindrà?|Per què la crees?|
 |---|---|---|
-||||
-||||
-||||
-||||
-||||
+|Direccio|Aina Ciurans, Rut Tornil|Per gestionar-los amb polítiques pròpies, diferents de la resta|
+|Administracio|Dídac Gassó, Laia Macias|Agrupa els usuaris d'aquest departament|
+|SuportTecnic|Estel Birosta, Aina Zuriguel, Lluïsa Richart|Agrupa els usuaris d'aquest departament|
+|ProduccioMusical|Roser Alberch, Guillem Adella, Meritxell Reglat, Alícia Monclús, Carles Molins, Eulàlia Galcera|Agrupa els usuaris d'aquest departament|
+|Informatica|Talia Costas, Alex Soriano|Per aplicar-hi polítiques d'administrador diferents de la resta|
 
 ## 2.1. Organització dels usuaris
 

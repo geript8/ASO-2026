@@ -160,29 +160,21 @@ MusicCloud
 ```
 # 8. Justificació del disseny
 
-Escull **dues decisions** del teu DIT que consideris importants i justifica-les.
-
 ### Decisió 1
 
----
+Separar els usuaris en subdivisions per departament (Direccio, Administracio, SuportTecnic...).
 
 **Justificació:**
 
----
-
----
+Així cada departament té els seus usuaris ben organitzats i es poden aplicar polítiques diferents a cada un sense afectar la resta.
 
 ### Decisió 2
 
----
+Crear un grup específic `CampanyaEstiu` fora de l'estructura de departaments.
 
 **Justificació:**
 
----
-
----
-
----
+Les persones que hi participen són de departaments diferents, així que un grup a part permet donar-los accés al projecte sense haver de canviar-les de departament.
 
 # 9. Comprovació final
 

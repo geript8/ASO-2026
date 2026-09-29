@@ -99,17 +99,11 @@ Perquè cada usuari només pot estar en **una** OU (indica on està ubicat dins 
 
 Explica breument què entens per **servei de directori**.
 
----
-
----
+És un sistema que centralitza la informació dels usuaris, grups i recursos d'una empresa, i controla qui hi pot accedir.
 
 Quin problema resol a MusicCloud?
 
----
-
----
-
----
+Evita haver de gestionar els usuaris i permisos un per un a cada equip o recurs per separat, i permet fer-ho tot des d'un sol lloc.
 
 # 6. LDAP
 

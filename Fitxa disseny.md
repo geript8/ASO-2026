@@ -178,28 +178,17 @@ Les persones que hi participen són de departaments diferents, així que un grup
 
 # 9. Comprovació final
 
-Respon breument.
-
 ### a) Per què no seria una bona idea guardar tots els usuaris, grups, equips i servidors al mateix nivell sense organitzar-los?
 
----
-
----
+Seria un caos trobar res, amb tot barrejat sense cap ordre.
 
 ### b) Per què no hauríem d'utilitzar les OU per substituir els grups de permisos?
 
----
-
----
+Perquè les OU serveixen per aplicar polítiques i organitzar objectes, no per controlar qui accedeix a quins recursos.
 
 ### c) Si MusicCloud passa de 14 a 500 treballadors, quina característica del disseny que has fet avui facilitarà més l'administració?
 
----
-
----
-
----
-
+Tenir els usuaris ja separats per departament dins d'OU, així els nous treballadors només caldria col·locar-los a l'OU corresponent.
 # Documentació final del sistema
 
 A partir de les decisions preses durant la sessió, deixa definida la proposta que utilitzarem inicialment per a MusicCloud.

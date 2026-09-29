@@ -107,26 +107,22 @@ Evita haver de gestionar els usuaris i permisos un per un a cada equip o recurs 
 
 # 6. LDAP
 
-Completa les frases següents.
-
 **LDAP és:**
 
----
+Un protocol per accedir i consultar informació d'un servei de directori.
 
 **LDAP no és:**
 
----
+Un programa o un producte concret; és només un estàndard que altres sistemes utilitzen.
 
 Indica si les afirmacions són certes o falses.
 
 |Afirmació|C|F|
 |---|:-:|:-:|
-|LDAP és sinònim d'Active Directory|☐|☐|
-|LDAP permet accedir i consultar informació d'un directori|☐|☐|
-|OpenLDAP és una implementació d'un servei de directori|☐|☐|
-|Active Directory utilitza LDAP, entre altres tecnologies|☐|☐|
-
----
+|LDAP és sinònim d'Active Directory|☐|☑|
+|LDAP permet accedir i consultar informació d'un directori|☑|☐|
+|OpenLDAP és una implementació d'un servei de directori|☑|☐|
+|Active Directory utilitza LDAP, entre altres tecnologies|☑|☐|
 
 # 7. DIT de MusicCloud
 

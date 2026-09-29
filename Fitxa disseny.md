@@ -126,34 +126,38 @@ Indica si les afirmacions són certes o falses.
 
 # 7. DIT de MusicCloud
 
-Dibuixa la proposta final de **Directory Information Tree (DIT)** de MusicCloud.
-
-Ha de mostrar, com a mínim:
-
-- usuaris;
-    
-- grups;
-    
-- equips;
-    
-- servidors;
-    
-- comptes d'aplicacions o serveis;
-    
-- les subdivisions que consideris necessàries.
-    
-
 ```text
 MusicCloud
 │
+├── Usuaris
+│   ├── Direccio
+│   ├── Administracio
+│   ├── SuportTecnic
+│   ├── ProduccioMusical
+│   ├── Informatica
+│   └── Externs
 │
+├── Grups
+│   ├── Direccio
+│   ├── Administracio
+│   ├── SuportTecnic
+│   ├── ProduccioMusical
+│   ├── Informatica
+│   └── CampanyaEstiu
 │
+├── Equips
+│   ├── PC_Direccio
+│   ├── PC_Administracio
+│   └── PC_Informatica
 │
+├── Servidors
+│   ├── ServidorFitxers
+│   └── ServidorBackups
 │
+└── ComptesServei
+    ├── ServeiCorreu
+    └── ServeiPlataforma
 ```
-
----
-
 # 8. Justificació del disseny
 
 Escull **dues decisions** del teu DIT que consideris importants i justifica-les.

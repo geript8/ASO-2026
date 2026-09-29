@@ -189,24 +189,26 @@ Perquè les OU serveixen per aplicar polítiques i organitzar objectes, no per c
 ### c) Si MusicCloud passa de 14 a 500 treballadors, quina característica del disseny que has fet avui facilitarà més l'administració?
 
 Tenir els usuaris ja separats per departament dins d'OU, així els nous treballadors només caldria col·locar-los a l'OU corresponent.
-# Documentació final del sistema
 
-A partir de les decisions preses durant la sessió, deixa definida la proposta que utilitzarem inicialment per a MusicCloud.
+# Documentació final del sistema
 
 ## Estructura d'unitats organitzatives
 
 ```text
 MusicCloud
 │
-│
-│
-│
+├── Direccio
+├── Administracio
+├── SuportTecnic
+├── ProduccioMusical
+├── Informatica
+└── Externs
 ```
 
 ## Criteri utilitzat per organitzar els objectes
 
----
-
----
+S'ha organitzat cada usuari dins l'OU del seu departament, ja que és el lloc on treballa habitualment i on se li apliquen les polítiques del dia a dia.
 
 ## Criteri utilitzat per diferenciar OU i grups
+
+Les OU s'utilitzen per ubicar i organitzar els usuaris segons el seu departament, mentre que els grups s'utilitzen per donar accés a recursos concrets, encara que els membres siguin de departaments diferents (com en el cas del projecte `CampanyaEstiu`).

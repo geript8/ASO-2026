@@ -42,12 +42,20 @@ $b = "5"
 
 $a + $b
 ```
-Respon:
+
 
 - Quin resultat obtens en cada cas?
-- Per què no és el mateix?
-Mostra després el contingut de cadascuna de les variables.
 
+    Primer cas: 15
+    Segon cas: 105
+
+- Per què no és el mateix?
+
+    Perque en el primer cas $a i $b son numeros i fa la suma
+    En el segon cas son textos i als sumar, els uneix.
+
+Mostra després el contingut de cadascuna de les variables.
+![Variables de Powershell](fotos/numerootext.png)
 
 - Quin tipus tenen $a i $b en cada cas?
 ## 3. Canviar el tipus d'una variable

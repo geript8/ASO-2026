@@ -134,12 +134,19 @@ $serveiActiu = $true
 $servidorDisponible = $false
 ```
 Consulta els tipus.
-
+![Variables de Powershell](fotos/booleans.png)
 Després mostra un missatge amb:
 ```
 Write-Host "Servei actiu: $serveiActiu"
 Write-Host "Servidor disponible: $servidorDisponible"
+
+![Variables de Powershell](fotos/booleans2.png)
+
+**Observació:** les dues variables són de tipus `Boolean`, que només pot valer `$true` o `$false`. Amb `Write-Host` PowerShell substitueix cada variable pel seu valor i es mostra `True` i `False`.
+
 ```
+
+
 ## 6. General
 
 Crea variables per representar un servidor amb aquesta informació:

@@ -103,6 +103,11 @@ Comprova el tipus:
 ```powershell
 $port.GetType()
 ```
+![Variables de Powershell](fotos/tipusexplicit.png)
+
+**Observació:** he declarat `$port` amb `[int]`, per tant PowerShell la tracta com un número enter. `GetType()` mostra `Int32`.
+
+
 Ara prova:
 ```
 [string]$portText = 443
@@ -111,9 +116,16 @@ Consulta també:
 ```powershell
 $portText.GetType()
 ```
+![Variables de Powershell](fotos/tipusexplicit2.png)
+
+**Observació:** he declarat `$portText` amb `[string]`, per tant PowerShell converteix el 443 a text. `GetType()` mostra `String`.
+
+
 Respon:
 
 **Tot i que visualment els dos valors semblen `443`, són del mateix tipus?**
+
+**No.** `$port` és `Int32` (número enter) i `$portText` és `String` (text). Es veuen igual (`443`), però internament són tipus diferents.
 ## 5. Booleans
 
 Crea:

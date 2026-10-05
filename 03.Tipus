@@ -68,6 +68,10 @@ Consulta:
 ```powershell
 $valor.GetType()
 ```
+![Variables de Powershell](fotos/tipovalor.png)
+
+**Observació:** la variable és de tipus `Int32`, un número enter.
+
 Ara executa:
 ```powershell
 $valor = "100"
@@ -76,9 +80,19 @@ i torna a consultar:
 ```powershell
 $valor.GetType()
 ```
+![Variables de Powershell](fotos/tipovalor2.png)
+
+**Observació:** ara és de tipus `String`, text.
+
+
 Respon:
 
 **Ha canviat el valor? Ha canviat el tipus?**
+
+Aparentment no, es veu `100` en els dos casos, però abans era un número i ara és un text.
+
+Sí ha canviat el tipus, ha passat d'`Int32` a `String`.
+
 ## 4. Tipus explícits
 
 Executa:

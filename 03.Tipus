@@ -161,3 +161,12 @@ Després:
 1. mostra el valor de totes les variables;
 2. consulta el tipus de cadascuna;
 3. indica quin tipus de dada has utilitzat per cada valor.
+
+![Variables de Powershell](fotos/mostrarvalors.png)
+**Observació (crear variables):** he creat quatre variables amb tipus diferents: text (`"SRV-WEB01"`), enter (`443`), decimal (`125.7`, amb punt) i booleà (`$true`). Les assignacions no mostren res per pantalla.
+
+**Observació (mostrar variables):** en escriure només el nom de cada variable, PowerShell en mostra el valor.
+
+![Variables de Powershell](fotos/consultarvalors.png)
+
+**Observació (consultar tipus):** amb `GetType()` he comprovat el tipus de cada variable: `$nom` és `String`, `$port` és `Int32`, `$espaiLliure` és `Double` i `$actiu` és `Boolean`. PowerShell assigna el tipus automàticament segons el valor.

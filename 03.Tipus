@@ -23,7 +23,7 @@ Completa una taula com aquesta:
 | $actiu   | $true        |       |
 | $espai   | `12.5`       |       |
 
-    ![Variables de Powershell](fotos/identificartipus.png)
+![Variables de Powershell](fotos/identificartipus.png)
 
     Serveix per saber el tipus de dada de cada variable.
 ## 2. Número o text?
@@ -116,7 +116,7 @@ Consulta també:
 ```powershell
 $portText.GetType()
 ```
-![Variables de Powershell](fotos/tipusexplicit2.png)
+![Variables de Powershell](tipusexplicit2.png)
 
 **Observació:** he declarat `$portText` amb `[string]`, per tant PowerShell converteix el 443 a text. `GetType()` mostra `String`.
 

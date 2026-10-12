@@ -29,8 +29,8 @@ Completa la taula següent.
 
 | Persona | Departament | Funció / responsabilitat | Perfil | Necessita privilegis especials? Per què? |
 |---|---|---|---|---|
-| Aina Ciurans | Direcció | Usuari estàndard de Direcció | Direcció (cas especial) | Sí. Direcció té accés L/E gairebé a tots els recursos de l'empresa (comuns, propis i interdepartamentals), ja que supervisa el conjunt de l'organització. |
-| Rut Tornil | Direcció | Usuari estàndard de Direcció | Direcció (cas especial) | Sí, pel mateix motiu que Aina Ciurans: Direcció necessita visió i control globals sobre la resta de departaments. |
+| Aina Ciurans | Direcció | Usuari estàndard de Direcció | Direcció (cas especial) | Sí, però limitats. Direcció necessita visibilitat per supervisar l'empresa, però no té accés L/E general. Segons el principi de mínim privilegi, només accedeix als recursos propis del departament i als comuns, i té accés de lectura (L) als recursos d'altres departaments que necessita per supervisar. No té escriptura ni permisos d'administració sobre ells. |
+| Rut Tornil | Direcció | Usuari estàndard de Direcció | Direcció (cas especial) | Sí, pel mateix motiu que Aina Ciurans: només té els accessos que necessita per supervisar (lectura als recursos d'altres departaments), no un control total sobre tots els recursos. |
 | Dídac Gassó | Administració | Usuari estàndard | Usuari estàndard | No. Accedeix als recursos propis del departament (`compartida`, `documentacio_interna`) i als comuns de l'empresa, sense permisos addicionals. |
 | Laia Macias | Administració | Cap de departament | Responsable de departament | Sí. Com a responsable, és l'única persona amb accés de lectura/escriptura a `gestio_departament` (carpeta restringida al cap). |
 | Estel Birosta | Suport tècnic | Usuari estàndard | Usuari estàndard | Possiblement sí, de forma puntual. Suport tècnic pot rebre accés temporal (ATP) a `usuaris`, `logs`, `configuracions` i `inventari` per resoldre incidències concretes, sempre justificat i registrat. |
@@ -279,16 +279,20 @@ Laia treballa al departament d'Administració, però també és la responsable d
 
 És suficient que pertanyi només al conjunt `Administració`?
 
-☑ Sí  
-☐ No
+☐ Sí  
+☑ No
 
 Per què?
 
-Perquè amb aquest conjunt ja té accés a `compartida` i `documentacio_interna`, però li falta l'accés especial a `gestio_departament`, que només és seu.
+Perquè amb el conjunt `Administració` només té accés a `compartida` i `documentacio_interna`, que són els recursos comuns a tot el departament. Com a responsable, també necessita accedir a `gestio_departament`, que només és seu i la resta de membres no hi han de poder accedir. Per tant, amb un sol conjunt no és suficient.
 
 Quina possible solució proposes?
 
-Crear un segon conjunt, per exemple `Administració_cap`, només amb en Laia, i donar-li a aquest conjunt l'accés a `gestio_departament`. Així en Laia pertanyeria als dos conjunts alhora: `Administració` i `Administració_cap`.
+Crear un segon conjunt, `Administració_cap`, i donar-li accés a `gestio_departament`. Aquest conjunt s'afegeix com a **membre del conjunt `Administració`** (grup dins de grup), i la Laia es col·loca només dins de `Administració_cap`. D'aquesta manera:
+
+- Com que `Administració_cap` és membre d'`Administració`, la Laia hereta l'accés a `compartida` i `documentacio_interna`.
+- Gràcies a `Administració_cap`, també té accés a `gestio_departament`.
+- No cal assignar permisos a la Laia com a usuària individual, i si en el futur canvia el cap del departament, només cal moure la persona dins del grup `Administració_cap`.
 # 9. Un altre cas
 
 Diverses persones de departaments diferents participen temporalment en el projecte `Campanya Estiu`.
@@ -306,7 +310,7 @@ Crear un conjunt nou només per al projecte, per exemple `Campanya_Estiu`, i afe
 Un usuari representa: una persona que treballa a l'empresa i necessita accedir a recursos.
 
 ### Recurs
-Un recurs és: una carpeta a on hi ha informació que es pot consultar o modificar.
+Un recurs és: qualsevol element de la xarxa als quals es pot donar o restringir l'accés i sobre el qual es poden assignar permisos. Pot ser una carpeta o un fitxer amb informació que es pot consultar o modificar.
 
 ### Permís
 Un permís determina: què pot fer un usuari amb un recurs (llegir-lo, modificar-lo o no accedir-hi).

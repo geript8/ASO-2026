@@ -1,5 +1,4 @@
 $nomOu = "Musiccloud"
-
 $rutaBase = "DC=Musiccloud,DC=local"
 
 New-ADOrganizationalUnit -Name $nomOu -Path $rutaBase
